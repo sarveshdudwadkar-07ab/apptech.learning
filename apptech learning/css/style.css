@@ -1,0 +1,174 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #111;
+}
+
+/* HEADER */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.phone {
+    color: #f1c40f;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background:#f1c40f;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(to right, #000000, #2c2c2c);
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    color: #f1c40f;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* BUTTON */
+button {
+    background-color: #f1c40f;
+    color: #000;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d4ac0d;
+}
+
+/* CONTENT */
+.content {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* LIST */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #f1c40f;
+    font-weight: 500;
+}
+
+/* CONTACT PAGE HIGHLIGHT */
+.contact-highlight {
+    text-align: center;
+}
+
+.contact-box {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.call-text {
+    font-size: 18px;
+}
+
+.contact-number a {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f1c40f;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.support-text {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* CONTACT FORM */
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 12px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
